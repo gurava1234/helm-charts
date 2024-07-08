@@ -6,7 +6,7 @@ spec:
   type: LoadBalancer
   selector:
    app: nginx
-   demo: helm
+   demo: hel
   ports:
   - protocol: TCP
     port: 80  #service-port
